@@ -46,7 +46,27 @@
         <usertype-core.version>3.2.0.GA</usertype-core.version>
         <flexjson.version>3.2</flexjson.version>
     </properties>
+    <distributionManagement>
+        <repository>
+            <id>tni-hq-artifact</id>
+            <name>tni-hq-artifact-releases</name>
+            <url>http://repo.teamnet.ro/tn-components</url>
+        </repository>
+        <snapshotRepository>
+            <id>tni-hq-artifact</id>
+            <name>tni-hq-artifact-snapshots</name>
+            <url>http://repo.teamnet.ro/tn-components</url>
+        </snapshotRepository>
+    </distributionManagement>
+<repositories>
+    <repository>
+        <id>tni-hq-artifact</id>
+        <name>tni-hq-artifact-releases</name>
+        <url>http://repo.teamnet.ro/tn-components</url>
+    </repository>
 
+</repositories>
+    
     <dependencies>
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
