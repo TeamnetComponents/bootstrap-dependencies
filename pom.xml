@@ -348,6 +348,11 @@
             <artifactId>flexjson</artifactId>
             <version>${flexjson.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgresql.version}</version>
+        </dependency>
     </dependencies>
 
 </project>
