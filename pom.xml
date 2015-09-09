@@ -4,12 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <prerequisites>
+        <maven>3.0.0</maven>
+    </prerequisites>
 
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
         <groupId>org.springframework.boot</groupId>
         <version>1.2.0.RELEASE</version>
-        <relativePath />
+        <relativePath/>
     </parent>
 
     <groupId>ro.teamnet.bootstrap</groupId>
@@ -17,9 +20,24 @@
     <version>0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <prerequisites>
-        <maven>3.0.0</maven>
-    </prerequisites>
+    <distributionManagement>
+        <repository>
+            <id>tni-hq-artifact</id>
+            <name>tni-hq-artifact-releases</name>
+            <url>http://repo.teamnet.ro/tn-components</url>
+        </repository>
+        <snapshotRepository>
+            <id>tni-hq-artifact</id>
+            <name>tni-hq-artifact-snapshots</name>
+            <url>http://repo.teamnet.ro/tn-components</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <scm>
+        <url>http://git-components.teamnet.ro/summary/components%2Fjava%2Fbootstrap-dependencies.git</url>
+        <connection>scm:git:ssh://oana.mihai@git-components.teamnet.ro:29418/components/java/bootstrap-dependencies.git</connection>
+        <tag>HEAD</tag>
+    </scm>
 
     <properties>
         <HikariCP.version>2.2.5</HikariCP.version>
@@ -48,7 +66,7 @@
         <flexjson.version>3.2</flexjson.version>
     </properties>
 
-    
+
     <dependencies>
         <dependency>
             <groupId>com.fasterxml.jackson.datatype</groupId>
