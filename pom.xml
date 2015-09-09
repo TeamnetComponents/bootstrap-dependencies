@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <prerequisites>
@@ -12,12 +10,12 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <groupId>org.springframework.boot</groupId>
         <version>1.2.0.RELEASE</version>
-        <relativePath/>
+        <relativePath />
     </parent>
 
     <groupId>ro.teamnet.bootstrap</groupId>
     <artifactId>bootstrap-dependencies</artifactId>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.2.1</version>
     <packaging>pom</packaging>
 
     <distributionManagement>
@@ -36,7 +34,7 @@
     <scm>
         <url>http://git-components.teamnet.ro/summary/components%2Fjava%2Fbootstrap-dependencies.git</url>
         <connection>scm:git:ssh://oana.mihai@git-components.teamnet.ro:29418/components/java/bootstrap-dependencies.git</connection>
-        <tag>HEAD</tag>
+        <tag>v0.2.1</tag>
     </scm>
 
     <build>
