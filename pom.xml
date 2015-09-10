@@ -33,7 +33,7 @@
 
     <scm>
         <url>http://git-components.teamnet.ro/summary/components%2Fjava%2Fbootstrap-dependencies.git</url>
-        <connection>scm:git:ssh://oana.mihai@git-components.teamnet.ro:29418/components/java/bootstrap-dependencies.git</connection>
+        <connection>scm:git:http://component-publisher@git-components.teamnet.ro/r/components/java/bootstrap-dependencies.git</connection>
         <tag>HEAD</tag>
     </scm>
 
